@@ -42,9 +42,4 @@ public class BankAccount {
         }
     }
 }
-class BankAccountActionInvalidException extends Exception {
 
-    BankAccountActionInvalidException(String message) {
-        super(message);
-    }
-}
